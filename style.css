@@ -1,0 +1,42 @@
+.header,
+.footer {
+    /* display: flex; */
+    background-color: #1f2937;
+}
+
+.headertop,
+.headerbot {
+    display: flex;
+}
+
+.headertop {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer {
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+h1,
+h3 {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
